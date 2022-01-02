@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    
+}
+
+
+.bg input[type="button"]{
+    
+    cursor: pointer;
+    height: 35px;
+    width: 35px;    
+    border-radius: 12%;
+    border-color:none;
+}
+
+.bg input[type="button"]:hover{
+    border-color:rgb(79, 99, 99);
+    height: 120px;
+    width: 45px;
+    border-radius: 8%;
+    transition: 0.4s;
+
+}
